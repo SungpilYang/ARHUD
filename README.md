@@ -18,7 +18,7 @@
 - Monocular depth map 생성  
 - Frame index 기반 depth 매칭
 
-### 3. ORB-SLAM3 Pose Tracking
+### 3. ORB-SLAM3 Pose Tracking (Ubuntu 환경에서 진행)
 - KeyFrameTrajectory 기반 카메라 위치/자세 수집  
 - Timestamp 기반 Slerp pose interpolation
 

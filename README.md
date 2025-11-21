@@ -3,7 +3,7 @@
 #  AR-HUD Navigation System  
 ### *Monocular Camera 기반 증강현실 내비게이션 시스템*  
 (2025-2 Media project Project )
-<img width="1920" height="1080" alt="떵피리" src="https://github.com/user-attachments/assets/623481f3-1aae-49e4-8db6-fb7ebad2ebbf" />
+<img width="1920" height="1080" alt="떵피리 (1)" src="https://github.com/user-attachments/assets/608046f6-2291-422f-b4e3-1423d5f90058" />
 
 
 본 프로젝트는 단일 카메라 영상만을 이용해  
@@ -16,17 +16,30 @@
 - 실도로 영상에서 차선/도로를 분할
 - Morphology + Sobel + Ridge Regression + EMA smoothing으로 중심선 안정화
 
+<img width="430" height="270" alt="road_segmented_segformer" src="https://github.com/user-attachments/assets/5957e47d-4d7f-410a-8b3b-14c8963c0c12" />
+<img width="430" height="270" alt="road_center_spline_trimmed2" src="https://github.com/user-attachments/assets/8960ced1-f5e7-4e50-b27b-20543b122de9" />
+
+
 ### 2. MiDaS Depth Estimation
 - Monocular depth map 생성  
 - Frame index 기반 depth 매칭
+<img width="430" height="270" alt="depth_0005" src="https://github.com/user-attachments/assets/a611c2a7-0780-44c7-8e0c-bad9cd1251de" />
+<img width="430" height="270" alt="depth_0560" src="https://github.com/user-attachments/assets/499615cc-3598-4f6c-a4ae-aa638e04e91a" />
 
-### 3. ORB-SLAM3 Pose Tracking (Ubuntu 환경에서 진행)
+
+
+### 3. ORB-SLAM3 Pose Tracking (Ubuntu)
 - KeyFrameTrajectory 기반 카메라 위치/자세 수집  
 - Timestamp 기반 Slerp pose interpolation
+
+<img width="430" height="270" alt="ORB-SLAM3 Current Frame_screenshot_18 11 2025" src="https://github.com/user-attachments/assets/fda93b61-b41d-42ef-a644-6ad25f782c68" />
+<img width="430" height="270" alt="SLAM_Trajectory3" src="https://github.com/user-attachments/assets/6451e1ff-43d9-4664-a512-d17d5bc0aa50" />
+
 
 ###  4. 2D Centerline → 3D World 좌표 변환
 - Intrinsic K + depth + pose로 3D back-projection  
 - Timestamp 포함하여 정교한 time-synchronized reconstruction 수행
+<img width="430" height="350" alt="points_3d_timestamp_scatter" src="https://github.com/user-attachments/assets/36a40494-0b47-40ae-b59d-c16c8152218f" />
 
 ### 5. SLAM Heading → Map Heading 정합
 - Heading mismatch 보정  
@@ -35,6 +48,9 @@
 ### 6. OpenGL 기반 AR-HUD 렌더링
 - 방향 화살표, 가이던스 표시  
 - 차량 전방 화면에 HUD 오버레이
+
+<img width="430" height="270" alt="fianl_image2" src="https://github.com/user-attachments/assets/99ba0171-e242-4ec4-9c94-ba0ff9adf283" />
+<img width="430" height="270" alt="fianl_image5" src="https://github.com/user-attachments/assets/0d3092e2-9fca-44df-95c0-e528c97de408" />
 
 ---
 

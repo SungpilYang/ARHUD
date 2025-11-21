@@ -1,0 +1,14 @@
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+data/camera_calibration/*.jpg
+data/camera_calibration/*.jpeg
+data/camera_calibration/*.png
+data/camera_calibration/*.bmp
+
+.DS_Store
+Thumbs.db 
+__pycache__/
+.vscode/

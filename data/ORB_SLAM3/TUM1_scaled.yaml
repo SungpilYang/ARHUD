@@ -1,0 +1,38 @@
+%YAML:1.0
+
+Camera.type: "PinHole"
+
+Camera.fx: 1464.3571918835894
+Camera.fy: 1463.0897707791478
+Camera.cx: 961.9347847052842
+Camera.cy: 529.9708166994249
+
+Camera.k1: 0.28129236244996736
+Camera.k2: -1.4721130950962313
+Camera.p1: -0.0019969760430878676
+Camera.p2: 0.00083129315402551
+Camera.k3: 2.5578281812683503
+
+Camera.fps: 30.0
+Camera.RGB: 1
+Camera.width: 1920
+Camera.height: 1080
+
+ORBextractor.nFeatures: 4000
+ORBextractor.scaleFactor: 1.2
+ORBextractor.nLevels: 8
+ORBextractor.iniThFAST: 20
+ORBextractor.minThFAST: 5
+
+Viewer.KeyFrameSize: 0.05
+Viewer.KeyFrameLineWidth: 1
+Viewer.GraphLineWidth: 0.9
+Viewer.PointSize: 2
+Viewer.CameraSize: 0.08
+Viewer.CameraLineWidth: 3
+Viewer.ViewpointX: 0
+Viewer.ViewpointY: -0.7
+Viewer.ViewpointZ: -1.8
+Viewer.ViewpointF: 500
+Viewer.WindowWidth: 800
+Viewer.WindowHeight: 600

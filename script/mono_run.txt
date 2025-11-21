@@ -1,0 +1,7 @@
+cd external/ORB_SLAM3/Examples_old/Monocular
+
+./mono_tum_old \
+    ~/ARHUD_local/Vocabulary/ORBvoc.txt \
+    TUM1_scaled.yaml \
+    ~/ARHUD_local/tum_video_dataset \
+    2>&1 | tee ~/ARHUD/mono_log_final_run.txt

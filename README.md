@@ -40,6 +40,8 @@
 - Intrinsic K + depth + pose로 3D back-projection  
 - Timestamp 포함하여 정교한 time-synchronized reconstruction 수행
 <img width="430" height="350" alt="points_3d_timestamp_scatter" src="https://github.com/user-attachments/assets/36a40494-0b47-40ae-b59d-c16c8152218f" />
+<img width="430" height="270" alt="lane_center_output_ridge_ema2" src="https://github.com/user-attachments/assets/b73f8be4-8ae5-4636-8ed7-654764c0fde6" />
+
 
 ### 5. SLAM Heading → Map Heading 정합
 - Heading mismatch 보정  

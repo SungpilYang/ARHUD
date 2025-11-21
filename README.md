@@ -4,7 +4,7 @@
 ### *Monocular Camera 기반 증강현실 내비게이션 시스템*  
 (2025-2 Media project Project )
 본 프로젝트는 단일 카메라 영상만을 이용해  
-**Lane Segmentation → Centerline Extraction → Depth Estimation → SLAM Pose 보정 → 3D Projection → AR HUD 렌더링**까지  
+**ORB-SLAM3 기반 Monocular Visual SLAM →Lane Segmentation → Centerline Extraction → Depth Estimation → 3D Projection → AR HUD 렌더링**까지  
 전 과정을 구현한 AR Heads-Up Navigation Pipeline입니다.
 
 ---

@@ -37,6 +37,8 @@
 ---
 
 ## 📁 Project Structure
+
+```
 ARHUD/
 │
 ├── data/
@@ -47,7 +49,7 @@ ARHUD/
 │ ├── points_3d_full_timestamped.txt# 최종 3D point cloud 결과
 │ ├── video_centerlines_ridge.txt # YOLOP 기반 중심선 결과
 │ ├── video_centerlines_polyfit.txt # Polyfit 실험 결과
-│ └── road_test*.png # 테스트용용 이미지
+│ └── road_test*.png # 테스트용 이미지
 │
 ├── src/
 │ ├── calib/
@@ -61,7 +63,7 @@ ARHUD/
 │ │ └── road_segmetation_nvidia_test.py #도로, 차선 추출 (test 용)
 │ │
 │ ├── projection/
-│ │ ├── centerline_to_3d.py # 주요 파이프라인
+│ │ ├── centerline_to_3d.py # 차선 3D 포인트 클라우드 변환
 │ │ └── 3D_scatter.py # 3D 시각화
 │ │
 │ ├── slam_postprocess/
@@ -74,6 +76,8 @@ ARHUD/
 │ ├── render_opengl.cpp  #AR-HUD 렌더링 코드 (shader 포함)
 │
 └── README.md
+
+
 
 ##  Videos (GitHub Releases)
 
